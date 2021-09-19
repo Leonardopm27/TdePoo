@@ -1,0 +1,6 @@
+git clone (link git hub)
+git status = para ver os status dos arquvios
+git add . = adiciona todos os arquivos
+git add . "nomearquivo" =  adiciona um arquivo especifico
+git commit -m "Incluindo arquivo" =  comitando o arquivo
+git push= sicronizar o repositório online com o físico
