@@ -20,10 +20,28 @@ public class RespostaQuinzeDezesseis {
 		
 		System.out.println("17.Imprima na tela (console) o número de caracteres da String.");
 		
+		String result = frase.replaceAll("\\s+","");
+		
+		int caracteres = result.length();
+
+        System.out.println("Texto digitado: " + frase);
+
+        System.out.println("Total de caracteres: " + caracteres);
+        
+        System.out.println("18.Crie uma nova String, pegando o pedaço da primeira String que compreenda\r\n"
+        		+ "a frase “Exemplo String”.");
+        
+      
+		if (frase2.contains("Exemplo String")){
+            System.out.println(true);
+        }
+        else {
+            System.out.println(false);
 		
 		
 
 	}
 	
 
+}
 }

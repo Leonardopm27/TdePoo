@@ -44,7 +44,7 @@ public class RespostaVinte {
 				+ "um int.\r\n"
 				+ "");
 		
-		double divisao = valorA / valorB;
+		double divisao = valorA * valorB;
 		System.out.println(divisao);
 		
 		
